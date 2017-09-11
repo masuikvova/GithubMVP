@@ -21,7 +21,6 @@ import ru.gdgkazan.githubmvp.content.Commit;
 import ru.gdgkazan.githubmvp.content.Repository;
 import ru.gdgkazan.githubmvp.screen.general.LoadingDialog;
 import ru.gdgkazan.githubmvp.screen.general.LoadingView;
-import ru.gdgkazan.githubmvp.screen.repositories.RepositoriesPresenter;
 import ru.gdgkazan.githubmvp.widget.DividerItemDecoration;
 import ru.gdgkazan.githubmvp.widget.EmptyRecyclerView;
 
