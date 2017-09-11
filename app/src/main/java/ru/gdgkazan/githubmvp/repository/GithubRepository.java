@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import java.util.List;
 
 import ru.gdgkazan.githubmvp.content.Authorization;
+import ru.gdgkazan.githubmvp.content.Commit;
 import ru.gdgkazan.githubmvp.content.Repository;
 import rx.Observable;
 
@@ -18,4 +19,6 @@ public interface GithubRepository {
 
     @NonNull
     Observable<Authorization> auth(@NonNull String login, @NonNull String password);
+
+    Observable<List<Commit>> commits(@NonNull String repo);
 }
